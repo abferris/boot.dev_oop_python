@@ -23,7 +23,7 @@ def destroy_walls(walls):
 
 def fight_soldiers(soldier_one, soldier_two):
     def get_soldier_dps(soldier):
-        return soldier["damage"] * soldier["attaks_per_second"]
+        return soldier["damage"] * soldier["attacks_per_second"]
     soldier_one_dps = get_soldier_dps(soldier_one)
     soldier_two_dps = get_soldier_dps(soldier_two)
     if soldier_one_dps > soldier_two_dps:
